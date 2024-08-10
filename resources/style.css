@@ -125,3 +125,12 @@ iframe {
     border: none !important;
     aspect-ratio: 16/9;
 }
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  body {
+    overflow-y: scroll;
+  }
