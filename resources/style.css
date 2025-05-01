@@ -129,8 +129,40 @@ iframe {
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
-  }
-  
-  body {
+}
+
+body {
     overflow-y: scroll;
-  }
+}
+
+.tab-container {
+    list-style: none;
+    padding: 5px;
+    color: rgb(212, 212, 212);
+}
+
+.tab-link {
+    border-color: gray;
+    padding: 0 185px;
+    cursor: pointer;
+}
+
+
+.tab-container .tab-link:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.tab-container .tab-link:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.tab-link.active {
+    background-color: rgb(231, 226, 226);;
+    color: black;
+}
+
+#work-prj-container{
+    display: none;
+}
