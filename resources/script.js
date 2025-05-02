@@ -10,7 +10,7 @@ $(document).ready(function() {
 
         }else if($(this).hasClass('work-prj-tab')){
             $('.project-container').fadeOut();
-            $('#work-prj-container').fadeIn();
+            $('#professional-prj-container').fadeIn();
         }
 
     });
