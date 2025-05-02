@@ -8,7 +8,7 @@ $(document).ready(function() {
             $('.project-container').fadeOut();
             $('#personal-prj-container').fadeIn();
 
-        }else if($(this).hasClass('work-prj-tab')){
+        }else if($(this).hasClass('professional-prj-tab')){
             $('.project-container').fadeOut();
             $('#professional-prj-container').fadeIn();
         }
